@@ -194,15 +194,15 @@
 		<div class="search-bar clearfix">
 			<ul class="nav">
 				<li><a href="#" class="action-create-file"><i
-						class="icon-file"></i> New document</a></li>
+						class="icon-file"></i> 新文稿</a></li>
 				<li><a href="#" class="action-remove-file-confirm"><i
-						class="icon-trash"></i> Delete document</a></li>
+						class="icon-trash"></i> 删除文稿</a></li>
 				<li><a href="#" data-toggle="modal" data-target=".modal-document-manager"><i
-						class="icon-layers"></i> Manage documents</a></li>
+						class="icon-layers"></i> 管理文稿</a></li>
 	        </ul>
 			<div class="input-group">
 				<span class="input-group-addon"><i class="icon-search"></i></span><input
-					type="text" class="form-control" placeholder="Find document" />
+					type="text" class="form-control" placeholder="查找文稿" />
 			</div>
 		</div>
 		<div class="panel-content">
@@ -219,7 +219,7 @@
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal"
 					aria-hidden="true">&times;</button>
-				<h2 class="modal-title">Manage documents</h2>
+				<h2 class="modal-title">管理文稿</h2>
 			</div>
 			<div class="modal-body">
 				<div></div>
@@ -236,11 +236,11 @@
 							<li><a href="#" class="action-move-items"><i
 									class="icon-forward"></i> Move to folder</a></li>
 							<li><a href="#" class="action-delete-items"><i
-									class="icon-trash"></i> Delete</a></li>
+									class="icon-trash"></i> 删除</a></li>
 						</ul></li>
 					<li class="pull-right"><a href="#"
 						class="action-create-folder"> <i class="icon-folder"></i>
-							Create folder
+							新文件夹
 					</a></li>
 					<li class="disabled"><a><i class="icon-file"></i> <span
 							class="document-count"></span></a></li>
@@ -248,18 +248,16 @@
 							class="folder-count"></span></a></li>
 				</ul>
 				<div class="list-group document-list"></div>
-				<p class="confirm-delete hide">The following documents will be
-					deleted locally:</p>
-				<p class="choose-folder hide">Please choose a destination
-					folder:</p>
+				<p class="confirm-delete hide">下列文件将会从本地删除:</p>
+				<p class="choose-folder hide">请选择一个目标文件夹:</p>
 				<div class="list-group selected-document-list hide"></div>
 				<div class="list-group select-folder-list hide"></div>
 			</div>
 			<div class="modal-footer">
 				<a href="#"
-					class="btn btn-default confirm-delete choose-folder action-cancel hide">Cancel</a>
+					class="btn btn-default confirm-delete choose-folder action-cancel hide">取消</a>
 				<a href="#"
-					class="btn btn-primary confirm-delete action-delete-items-confirm hide">OK</a>
+					class="btn btn-primary confirm-delete action-delete-items-confirm hide">确认</a>
 				<a href="#" class="btn btn-primary document-list"
 					data-dismiss="modal">Close</a>
 			</div>
@@ -275,20 +273,20 @@
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal"
 					aria-hidden="true">&times;</button>
-				<h2 class="modal-title">Hyperlink</h2>
+				<h2 class="modal-title">链接</h2>
 			</div>
 			<div class="modal-body">
-				<p>Please provide the link URL and an optional title:</p>
+				<p>请输入链接地址:</p>
 				<div class="input-group">
 					<span class="input-group-addon"><i class="icon-globe"></i></span><input
 						id="input-insert-link" type="text" class="col-sm-5 form-control"
-						placeholder='http://example.com/ "optional title"' />
+						placeholder='http://example.com/ "可选标题"' />
 				</div>
 			</div>
 			<div class="modal-footer">
-				<a href="#" class="btn btn-default" data-dismiss="modal">Cancel</a>
+				<a href="#" class="btn btn-default" data-dismiss="modal">取消</a>
 				<a href="#" class="btn btn-primary action-insert-link"
-					data-dismiss="modal">OK</a>
+					data-dismiss="modal">确认</a>
 			</div>
 		</div>
 	</div>
@@ -302,22 +300,22 @@
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal"
 					aria-hidden="true">&times;</button>
-				<h2 class="modal-title">Image</h2>
+				<h2 class="modal-title">图片</h2>
 			</div>
 			<div class="modal-body">
-				<p>Please provide the image URL and an optional title:</p>
+				<p>请输入图片地址:</p>
 				<div class="input-group">
 					<span class="input-group-addon"><i class="icon-picture"></i></span><input
 						id="input-insert-image" type="text" class="col-sm-5 form-control"
-						placeholder='http://example.com/image.jpg "optional title"' />
+						placeholder='http://example.com/image.jpg "可选标题"' />
 				</div>
 			</div>
 			<div class="modal-footer">
 				<a href="#" class="btn btn-default pull-left action-import-image-gplus"
 					data-dismiss="modal"><i class="icon-provider-gplus"></i> Import
 					from Google+</a> <a href="#" class="btn btn-default"
-					data-dismiss="modal">Cancel</a> <a href="#"
-					class="btn btn-primary action-insert-image" data-dismiss="modal">OK</a>
+					data-dismiss="modal">取消</a> <a href="#"
+					class="btn btn-primary action-insert-image" data-dismiss="modal">确认</a>
 			</div>
 		</div>
 	</div>
@@ -679,21 +677,19 @@
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal"
 					aria-hidden="true">&times;</button>
-				<h2 class="modal-title">Synchronization</h2>
+				<h2 class="modal-title">同步</h2>
 			</div>
 			<div class="modal-body">
 				<p>
-					"<span class="file-title"></span>" is synchronized with the
-					following location(s):
+					"<span class="file-title"></span>" 将会同步至下列链接:
 				</p>
 				<div class="sync-list"></div>
 				<blockquote>
-					<p><b>Note:</b> Removing a synchronized location will not delete any
-					file.</p>
+					<p><b>提示:</b> 删除同步地址将不会删除任何文件.</p>
 				</blockquote>
 			</div>
 			<div class="modal-footer">
-				<a href="#" class="btn btn-primary" data-dismiss="modal">Close</a>
+				<a href="#" class="btn btn-primary" data-dismiss="modal">关闭</a>
 			</div>
 		</div>
 	</div>
@@ -708,7 +704,7 @@
 				<button type="button" class="close" data-dismiss="modal"
 					aria-hidden="true">&times;</button>
 				<h2 class="modal-title">
-					Publish on <span class="publish-provider-name"></span>
+					发布到<span class="publish-provider-name"></span>
 				</h2>
 			</div>
 			<div class="modal-body">
@@ -718,14 +714,12 @@
 						<div class="col-sm-7">
 							<input type="text" id="input-publish-ssh-host"
 								placeholder="hostname.or.ip" class="form-control"> <span
-								class="help-block"> Host must be accessible publicly,
-								unless you're hosting your own StackEdit instance.
+								class="help-block"> host必须公网可访问,除非你是托管自己的stackedit实例。
 							</span>
 						</div>
 					</div>
 					<div class="form-group modal-publish-ssh">
-						<label class="col-sm-4 control-label" for="input-publish-ssh-port">Port
-							(optional)</label>
+						<label class="col-sm-4 control-label" for="input-publish-ssh-port">端口(可选)</label>
 						<div class="col-sm-2">
 							<input type="text" id="input-publish-ssh-port" placeholder="22"
 								class="form-control">
@@ -733,7 +727,7 @@
 					</div>
 					<div class="form-group modal-publish-ssh">
 						<label class="col-sm-4 control-label"
-							for="input-publish-ssh-username">Username</label>
+							for="input-publish-ssh-username">用户名</label>
 						<div class="col-sm-7">
 							<input type="text" id="input-publish-ssh-username"
 								placeholder="username" class="form-control">
@@ -741,7 +735,7 @@
 					</div>
 					<div class="form-group modal-publish-ssh">
 						<label class="col-sm-4 control-label"
-							for="input-publish-ssh-password">Password</label>
+							for="input-publish-ssh-password">密码</label>
 						<div class="col-sm-7">
 							<input type="password" id="input-publish-ssh-password"
 								placeholder="password" class="form-control">
@@ -749,15 +743,15 @@
 					</div>
 					<div class="form-group modal-publish-github">
 						<label class="col-sm-4 control-label"
-							for="input-publish-github-repo">Repository</label>
+							for="input-publish-github-repo">项目</label>
 						<div class="col-sm-7">
 							<input type="text" id="input-publish-github-repo"
-								placeholder="Repository name or URL" class="form-control">
+								placeholder="项目名或者链接" class="form-control">
 						</div>
 					</div>
 					<div class="form-group modal-publish-github">
 						<label class="col-sm-4 control-label"
-							for="input-publish-github-branch">Branch</label>
+							for="input-publish-github-branch">分支</label>
 						<div class="col-sm-7">
 							<input type="text" id="input-publish-github-branch"
 								placeholder="branch-name" class="form-control">
@@ -765,24 +759,22 @@
 					</div>
 					<div class="form-group modal-publish-ssh modal-publish-github">
 						<label class="col-sm-4 control-label"
-							for="input-publish-file-path">File path</label>
+							for="input-publish-file-path">文件路径</label>
 						<div class="col-sm-7">
 							<input type="text" id="input-publish-file-path"
 								placeholder="path/to/file.md" class="form-control">
-							<span class="help-block"> File path is composed of both
-								folder and filename. </span>
+							<span class="help-block">由文件夹和文件名组成</span>
 						</div>
 					</div>
 					<div class="form-group modal-publish-gist">
-						<label class="col-sm-4 control-label" for="input-publish-filename">Filename</label>
+						<label class="col-sm-4 control-label" for="input-publish-filename">文件名</label>
 						<div class="col-sm-7">
 							<input type="text" id="input-publish-filename"
 								placeholder="filename" class="form-control">
 						</div>
 					</div>
 					<div class="form-group modal-publish-gist">
-						<label class="col-sm-4 control-label" for="input-publish-gist-id">Existing
-							ID (optional)</label>
+						<label class="col-sm-4 control-label" for="input-publish-gist-id">现有ID (可选)</label>
 						<div class="col-sm-7">
 							<input type="text" id="input-publish-gist-id"
 								placeholder="GistID" class="form-control">
@@ -790,7 +782,7 @@
 					</div>
 					<div class="form-group modal-publish-gist">
 						<label class="col-sm-4 control-label"
-							for="input-publish-gist-public">Public</label>
+							for="input-publish-gist-public">公开</label>
 						<div class="col-sm-7">
 							<div class="checkbox">
 								<input type="checkbox" id="input-publish-gist-public"
@@ -800,7 +792,7 @@
 					</div>
 					<div class="form-group modal-publish-blogger modal-publish-bloggerpage">
 						<label class="col-sm-4 control-label"
-							for="input-publish-blogger-url">Blog URL</label>
+							for="input-publish-blogger-url">博客链接</label>
 						<div class="col-sm-7">
 							<input type="text" id="input-publish-blogger-url"
 								placeholder="http://exemple.blogger.com/" class="form-control">
@@ -808,7 +800,7 @@
 					</div>
 					<div class="form-group modal-publish-tumblr">
 						<label class="col-sm-4 control-label"
-							for="input-publish-tumblr-hostname">Blog hostname</label>
+							for="input-publish-tumblr-hostname">博客域名</label>
 						<div class="col-sm-7">
 							<input type="text" id="input-publish-tumblr-hostname"
 								placeholder="exemple.tumblr.com" class="form-control">
@@ -816,7 +808,7 @@
 					</div>
 					<div class="form-group modal-publish-wordpress">
 						<label class="col-sm-4 control-label"
-							for="input-publish-tumblr-hostname">WordPress site</label>
+							for="input-publish-tumblr-hostname">WordPress</label>
 						<div class="col-sm-7">
 							<input type="text" id="input-publish-wordpress-site"
 								placeholder="exemple.wordpress.com" class="form-control">
@@ -828,8 +820,7 @@
 					</div>
 					<div
 						class="form-group modal-publish-blogger modal-publish-tumblr modal-publish-wordpress">
-						<label class="col-sm-4 control-label" for="input-publish-postid">Update
-							existing post ID (optional)</label>
+						<label class="col-sm-4 control-label" for="input-publish-postid">已存在文章ID (可选)</label>
 						<div class="col-sm-7">
 							<input type="text" id="input-publish-postid" placeholder="PostID"
 								class="form-control">
@@ -837,8 +828,7 @@
 					</div>
 					<div
 						class="form-group modal-publish-bloggerpage">
-						<label class="col-sm-4 control-label" for="input-publish-pageid">Update
-							existing page ID (optional)</label>
+						<label class="col-sm-4 control-label" for="input-publish-pageid">已存在页面ID (可选)</label>
 						<div class="col-sm-7">
 							<input type="text" id="input-publish-pageid" placeholder="PageID"
 								class="form-control">
@@ -846,17 +836,16 @@
 					</div>
 					<div class="form-group modal-publish-dropbox">
 						<label class="col-sm-4 control-label"
-							for="input-publish-dropbox-path">File path</label>
+							for="input-publish-dropbox-path">文件路径</label>
 						<div class="col-sm-7">
 							<input type="text" id="input-publish-dropbox-path"
 								placeholder="/path/to/My Document.html" class="form-control">
-							<span class="help-block"> File path is composed of both
-								folder and filename. </span>
+							<span class="help-block">由文件夹和文件名组成</span>
 						</div>
 					</div>
 					<div class="form-group modal-publish-gdrive">
 						<label class="col-sm-4 control-label"
-							for="input-publish-gdrive-fileid">File ID (optional)</label>
+							for="input-publish-gdrive-fileid">文件ID (可选)</label>
 						<div class="col-sm-7">
 							<input type="text" id="input-publish-gdrive-fileid"
 								placeholder="FileID" class="form-control"> <span

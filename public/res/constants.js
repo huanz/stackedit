@@ -10,9 +10,9 @@ define([], function() {
 	constants.DROPBOX_RESTRICTED_APP_KEY = "sw0hlixhr8q1xk0";
 	constants.DROPBOX_RESTRICTED_APP_SECRET = "1r808p2xygs6lbg";
 	constants.BITLY_ACCESS_TOKEN = "317e033bfd48cf31155a68a536b1860013b09c4c";
-	constants.DEFAULT_FILE_TITLE = "Title";
-	constants.DEFAULT_FOLDER_NAME = "New folder";
-	constants.GDRIVE_DEFAULT_FILE_TITLE = "New Markdown document";
+	constants.DEFAULT_FILE_TITLE = "在此处输入标题";
+	constants.DEFAULT_FOLDER_NAME = "新文件夹";
+	constants.GDRIVE_DEFAULT_FILE_TITLE = "新文稿";
 	constants.EDITOR_DEFAULT_PADDING = 35;
 	constants.CHECK_ONLINE_PERIOD = 120000;
 	constants.AJAX_TIMEOUT = 30000;
