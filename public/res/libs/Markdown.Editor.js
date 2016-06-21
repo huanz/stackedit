@@ -18,39 +18,39 @@
         };
 
     var defaultsStrings = {
-        bold: "Strong <strong> Ctrl/Cmd+B",
-        boldexample: "strong text",
+        bold: "粗体 <strong> Ctrl/Cmd+B",
+        boldexample: "粗体文本",
 
-        italic: "Emphasis <em> Ctrl/Cmd+I",
-        italicexample: "emphasized text",
+        italic: "斜体 <em> Ctrl/Cmd+I",
+        italicexample: "斜体文本",
 
-        link: "Hyperlink <a> Ctrl/Cmd+L",
-        linkdescription: "enter link description here",
-        linkdialog: "<p><b>Insert Hyperlink</b></p><p>http://example.com/ \"optional title\"</p>",
+        link: "超链接 <a> Ctrl/Cmd+L",
+        linkdescription: "此处输入链接的描述",
+        linkdialog: "<p><b>输入超链接</b></p><p>http://example.com/ \"可选标题\"</p>",
 
-        quote: "Blockquote <blockquote> Ctrl/Cmd+Q",
-        quoteexample: "Blockquote",
+        quote: "段落引用 <blockquote> Ctrl/Cmd+Q",
+        quoteexample: "段落引用",
 
-        code: "Code Sample <pre><code> Ctrl/Cmd+K",
-        codeexample: "enter code here",
+        code: "代码样例 <pre><code> Ctrl/Cmd+K",
+        codeexample: "此处输入代码",
 
-        image: "Image <img> Ctrl/Cmd+G",
-        imagedescription: "enter image description here",
-        imagedialog: "<p><b>Insert Image</b></p><p>http://example.com/images/diagram.jpg \"optional title\"<br><br>Need <a href='http://www.google.com/search?q=free+image+hosting' target='_blank'>free image hosting?</a></p>",
+        image: "图片 <img> Ctrl/Cmd+G",
+        imagedescription: "此处输入图片的描述",
+        imagedialog: "<p><b>插入图片</b></p><p>http://example.com/images/diagram.jpg \"可选标题\"<br><br>Need <a href='http://www.google.com/search?q=free+image+hosting' target='_blank'>需要免费的图片主机？</a></p>",
 
-        olist: "Numbered List <ol> Ctrl/Cmd+O",
-        ulist: "Bulleted List <ul> Ctrl/Cmd+U",
-        litem: "List item",
+        olist: "有序列表 <ol> Ctrl/Cmd+O",
+        ulist: "无序列表 <ul> Ctrl/Cmd+U",
+        litem: "列表项",
 
-        heading: "Heading <h1>/<h2> Ctrl/Cmd+H",
-        headingexample: "Heading",
+        heading: "标题 <h1>/<h2> Ctrl/Cmd+H",
+        headingexample: "标题",
 
-        hr: "Horizontal Rule <hr> Ctrl/Cmd+R",
+        hr: "水平线 <hr> Ctrl/Cmd+R",
 
-        undo: "Undo - Ctrl/Cmd+Z",
-        redo: "Redo - Ctrl/Cmd+Y",
+        undo: "撤销 - Ctrl/Cmd+Z",
+        redo: "重复 - Ctrl/Cmd+Y",
 
-        help: "Markdown Editing Help"
+        help: "Markdown 语法帮助"
     };
 
 
