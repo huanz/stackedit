@@ -249,7 +249,7 @@
 			<div class="modal-footer">
 				<a href="#" class="btn btn-default confirm-delete choose-folder action-cancel hide">取消</a>
 				<a href="#" class="btn btn-primary confirm-delete action-delete-items-confirm hide">确认</a>
-				<a href="#" class="btn btn-primary document-list" data-dismiss="modal">Close</a>
+				<a href="#" class="btn btn-primary document-list" data-dismiss="modal">关闭</a>
 			</div>
 		</div>
 	</div>
@@ -847,19 +847,19 @@
 
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h2 class="modal-title">Publication</h2>
+				<h2 class="modal-title">发布</h2>
 			</div>
 			<div class="modal-body">
 				<p>
-					"<span class="file-title"></span>" is published on the following location(s):
+					"<span class="file-title"></span>" 将会发布至下列地址:
 				</p>
 				<div class="publish-list"></div>
 				<blockquote>
-					<p><b>Note:</b> Removing a publish location will not delete the actual publication.</p>
+					<p><b>提示:</b> 删除发布位置将不会删除已发布文稿</p>
 				</blockquote>
 			</div>
 			<div class="modal-footer">
-				<a href="#" class="btn btn-primary" data-dismiss="modal">Close</a>
+				<a href="#" class="btn btn-primary" data-dismiss="modal">关闭</a>
 			</div>
 		</div>
 	</div>
@@ -872,11 +872,11 @@
 
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h2 class="modal-title">Sharing</h2>
+				<h2 class="modal-title">分享</h2>
 			</div>
 			<div class="modal-body">
 				<p>Collaborate on "<span class="file-title"></span>" using the following link(s):</p>
-				<p class="msg-no-share-editor"><b>No sharing link yet!</b>
+				<p class="msg-no-share-editor"><b>没有分享链接!</b>
 				</p>
 				<div class="share-editor-list"></div>
 				<blockquote>
@@ -885,7 +885,7 @@
 				</blockquote>
 				<hr>
 				<p>Share a read-only version of "<span class="file-title"></span>" using the following link(s):</p>
-				<p class="msg-no-share-viewer"><b>No sharing link yet!</b>
+				<p class="msg-no-share-viewer"><b>没有分享链接!</b>
 				</p>
 				<div class="share-viewer-list"></div>
 				<blockquote>
@@ -897,7 +897,7 @@
 				</blockquote>
 			</div>
 			<div class="modal-footer">
-				<a href="#" class="btn btn-primary" data-dismiss="modal">Close</a>
+				<a href="#" class="btn btn-primary" data-dismiss="modal">关闭</a>
 			</div>
 		</div>
 	</div>
@@ -910,12 +910,12 @@
 
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h2 class="modal-title">Settings</h2>
+				<h2 class="modal-title">设置</h2>
 				<ul class="nav nav-tabs">
-					<li class="active"><a class="action-load-settings" href="#tabpane-settings-basic" data-toggle="tab">Basic</a></li>
-					<li><a class="action-load-settings" href="#tabpane-settings-advanced" data-toggle="tab">Advanced</a></li>
-					<li><a class="action-load-settings" href="#tabpane-settings-extensions" data-toggle="tab">Extensions</a></li>
-					<li><a class="action-load-settings" href="#tabpane-settings-utils" data-toggle="tab">Utils</a></li>
+					<li class="active"><a class="action-load-settings" href="#tabpane-settings-basic" data-toggle="tab">基本</a></li>
+					<li><a class="action-load-settings" href="#tabpane-settings-advanced" data-toggle="tab">高级</a></li>
+					<li><a class="action-load-settings" href="#tabpane-settings-extensions" data-toggle="tab">扩展</a></li>
+					<li><a class="action-load-settings" href="#tabpane-settings-utils" data-toggle="tab">工具</a></li>
 				</ul>
 			</div>
 			<div class="modal-body">
@@ -924,24 +924,24 @@
 					<div class="tab-pane active" id="tabpane-settings-basic">
 						<div class="form-horizontal">
 							<div class="form-group">
-								<label class="col-sm-4 control-label">Layout orientation</label>
+								<label class="col-sm-4 control-label">布局</label>
 								<div class="col-sm-7">
 									<div class="radio">
 										<label> <input type="radio"
 											name="radio-layout-orientation" value="horizontal">
-											Horizontal
+											水平
 										</label>
 									</div>
 									<div class="radio">
 										<label> <input type="radio"
 											name="radio-layout-orientation" value="vertical">
-											Vertical
+											垂直
 										</label>
 									</div>
 								</div>
 							</div>
 							<div class="form-group">
-								<label class="col-sm-4 control-label" for="input-settings-theme">Theme</label>
+								<label class="col-sm-4 control-label" for="input-settings-theme">主题</label>
 								<div class="col-sm-7">
 									<select id="input-settings-theme" class="form-control">
 									</select>
@@ -953,7 +953,7 @@
 									<div class="checkbox">
 										<label>
 										    <input type="checkbox" id="input-settings-markdown-extra" />
-										    <b>Markdown Extra/GitHub Flavored Markdown</b> syntax
+										    <b>Markdown Extra/GitHub Markdown</b> 语法
 										</label>
 									</div>
 								</div>
@@ -970,13 +970,13 @@
 								</div>
 							</div>
 							<div class="form-group">
-								<label class="col-sm-4 control-label" for="input-settings-gdrive-multiaccount">Google Drive multi-accounts
+								<label class="col-sm-4 control-label" for="input-settings-gdrive-multiaccount">Google Drive 账户
 								</label>
 								<div class="col-sm-7">
 									<select id="input-settings-gdrive-multiaccount" class="form-control">
-    									<option value="1">1 account</option>
-    									<option value="2">2 accounts</option>
-    									<option value="3">3 accounts</option>
+    									<option value="1">1</option>
+    									<option value="2">2</option>
+    									<option value="3">3</option>
 									</select>
 									<span class="help-block"><b>Please sign in first with Google.</b> Once linked with your Google accounts, changing account is not possible unless you reset the application.</span>
 								</div>
@@ -986,65 +986,65 @@
 					<div class="tab-pane" id="tabpane-settings-advanced">
 						<div class="form-horizontal">
 							<div class="form-group">
-								<label class="col-sm-4 control-label">Edit mode</label>
+								<label class="col-sm-4 control-label">写作模式</label>
 								<div class="col-sm-7">
 									<div class="radio">
 										<label> <input type="radio"
 											name="radio-settings-edit-mode" value="ltr">
-											Left-To-Right
+											从左到右
 										</label>
 									</div>
 									<div class="radio">
 										<label> <input type="radio"
 											name="radio-settings-edit-mode" value="rtl">
-											Right-To-Left
+											从右到左
 										</label>
 									</div>
 								</div>
 							</div>
 							<div class="form-group">
-								<label class="col-sm-4 control-label">Editor's font style</label>
+								<label class="col-sm-4 control-label">字体样式</label>
 								<div class="col-sm-7">
 									<div class="radio">
 										<label> <input type="radio"
 											name="radio-settings-editor-font-class" value="font-rich">
-											Rich
+											丰富
 										</label>
 									</div>
 									<div class="radio">
 										<label> <input type="radio"
 											name="radio-settings-editor-font-class" value="font-rich-monospaced">
-											Rich Monospaced
+											丰富等宽
 										</label>
 									</div>
 									<div class="radio">
 										<label> <input type="radio"
 											name="radio-settings-editor-font-class" value="font-monospaced">
-											Monospaced
+											等宽
 										</label>
 									</div>
 								</div>
 							</div>
 							<div class="form-group">
-								<label class="col-sm-4 control-label" for="input-settings-font-size">Font size ratio</label>
+								<label class="col-sm-4 control-label" for="input-settings-font-size">字体大小比</label>
 								<div class="col-sm-8 form-inline">
 									<input type="text" id="input-settings-font-size" class="form-control col-sm-2">
 								</div>
 							</div>
 							<div class="form-group">
-								<label class="col-sm-4 control-label" for="input-settings-max-width">Max width ratio</label>
+								<label class="col-sm-4 control-label" for="input-settings-max-width">最大宽度比</label>
 								<div class="col-sm-8 form-inline">
 									<input type="text" id="input-settings-max-width" class="form-control col-sm-2">
 								</div>
 							</div>
 							<div class="form-group">
-								<label class="col-sm-4 control-label" for="input-settings-cursor-focus">Cursor focus ratio</label>
+								<label class="col-sm-4 control-label" for="input-settings-cursor-focus">光标聚焦比</label>
 								<div class="col-sm-8 form-inline">
 									<input type="text" id="input-settings-cursor-focus" class="form-control col-sm-2">
 								</div>
 							</div>
 							<div class="form-group">
-								<label class="col-sm-4 control-label" for="input-settings-lazy-rendering">Lazy rendering <a
+								<label class="col-sm-4 control-label" for="input-settings-lazy-rendering">惰性渲染 <a
 									href="#" class="tooltip-lazy-rendering">(?)</a>
 								</label>
 								<div class="col-sm-7">
@@ -1054,7 +1054,7 @@
 								</div>
 							</div>
 							<div class="form-group">
-								<label class="col-sm-4 control-label" for="textarea-settings-default-content">Default content
+								<label class="col-sm-4 control-label" for="textarea-settings-default-content">默认内容
 									<a href="#" class="tooltip-default-content">(?)</a>
 								</label>
 								<div class="col-sm-7">
@@ -1062,23 +1062,23 @@
 								</div>
 							</div>
 							<div class="form-group">
-								<label class="col-sm-4 control-label" for="textarea-settings-publish-template">Default
-									template <a href="#" class="tooltip-template">(?)</a>
+								<label class="col-sm-4 control-label" for="textarea-settings-publish-template">默认模板
+									<a href="#" class="tooltip-template">(?)</a>
 								</label>
 								<div class="col-sm-7">
 									<textarea id="textarea-settings-publish-template" class="form-control"></textarea>
 								</div>
 							</div>
 							<div class="form-group">
-								<label class="col-sm-4 control-label" for="textarea-settings-pdf-template">PDF
-									template <a href="#" class="tooltip-template">(?)</a>
+								<label class="col-sm-4 control-label" for="textarea-settings-pdf-template">PDF模板
+									 <a href="#" class="tooltip-template">(?)</a>
 								</label>
 								<div class="col-sm-7">
 									<textarea id="textarea-settings-pdf-template" class="form-control"></textarea>
 								</div>
 							</div>
 							<div class="form-group">
-								<label class="col-sm-4 control-label" for="textarea-settings-pdf-options">PDF options
+								<label class="col-sm-4 control-label" for="textarea-settings-pdf-options">PDF选项
                                     <a href="#" class="tooltip-pdf-options">(?)</a>
                                 </label>
 								<div class="col-sm-7">
@@ -1096,7 +1096,7 @@
 								</div>
 							</div>
 							<div class="form-group">
-								<label class="col-sm-4 control-label">Permissions</label>
+								<label class="col-sm-4 control-label">权限</label>
 								<div class="col-sm-7">
 									<div class="checkbox">
 										<label>
@@ -1134,7 +1134,7 @@
 								</div>
 							</div>
 							<div class="form-group">
-								<label class="col-sm-4 control-label" for="input-settings-publish-commit-msg">GitHub commit message</label>
+								<label class="col-sm-4 control-label" for="input-settings-publish-commit-msg">GitHub提交信息</label>
 								<div class="col-sm-7">
 									<input type="text" id="input-settings-publish-commit-msg" class="form-control">
 								</div>
